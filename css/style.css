@@ -1,0 +1,65 @@
+body {
+    background-color: #202124;
+    text-align: center;
+}
+
+p {
+    font-family: "Roboto Thin", monospace;
+    color: #dedede;
+}
+
+.nav-link {
+    color: #dedede;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #068d54;
+}
+
+.container-selection-graph {
+    background-color: #303134;
+}
+
+.selection-graph {
+    background-color: rgba(0,0,0,0.2);
+    margin: 7px;
+    border: 1px solid;
+    transition: 0.2s;
+}
+
+.selection-graph:hover {
+    border-color: black;
+    cursor: pointer;
+}
+
+.discord {
+    border: 1px #5865F2 solid;
+    transition: 0.2s;
+}
+
+.discord:hover {
+    border-color: #aba8d7;
+}
+
+.earnapp-referral {
+    width: 10%;
+    margin-top: 15px;
+    margin-left: 89%;
+    background: linear-gradient(-45deg, #ff0000, #003cff, #ff0000, #003cff);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

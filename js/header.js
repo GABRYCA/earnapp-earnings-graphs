@@ -5,7 +5,10 @@ document.getElementById("header").innerHTML = "<p class='h1 pt-2 pb-2'>Anonymous
     "<a class='nav-link' href='home.html'>Home</a>" +
     "</li>" +
     "<li class='nav-item border-start border-end border-success'>" +
-    "<a class='nav-link' href='https://github.com/GABRYCA'>Github</a>" +
+    "<a class='nav-link' href='https://github.com/GABRYCA' target='_blank'>Github</a>" +
+    "</li>" +
+    "<li class='nav-item border-start border-end border-success'>" +
+    "<a class='nav-link' href='https://earnapp.com/i/6fnma8w' target='_blank'>Referral</a>" +
     "</li>" +
     "<li class='nav-item border-end border-success rounded-3'>" +
     "<a class='nav-link' href='contacts.html'>Contacts</a>" +

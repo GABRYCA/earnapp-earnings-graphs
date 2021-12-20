@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "username";
 $password = "password";
-$dbname = "earnapp_anonymousgca";
+$dbname = "earnapp_thomas";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -35,7 +35,7 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AnonymousGCA Earnapp Earnings</title>
+    <title>Joker Earnapp Earnings</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <script src="js/bootstrap.bundle.js"></script>
@@ -109,7 +109,7 @@ $conn->close();
     <hr style="color: #dedede">
 
     <p class="h1">Statistics:</p>
-    <p class="h6">Current user: AnonymousGCA</p>
+    <p class="h6">Current user: Joker</p>
     <div class="container container-selection-graph rounded-3 pt-3 pb-3">
         <div id="chartEarnings" style="height: 370px; width: 100%;"></div>
         <br>

@@ -52,7 +52,7 @@ $conn->close();
                     text: "Earnings",
                 },
                 axisX: {
-                    valueFormatString: "DD MMM",
+                    valueFormatString: "DD-MM-YY HH:mm",
                 },
                 axisY: {
                     title: "Cents Earned",
@@ -63,7 +63,7 @@ $conn->close();
                     type: "area",
                     color: "#008f20",
                     xValueType: "dateTime",
-                    xValueFormatString: "DD MMM",
+                    xValueFormatString: "DDD HH:mm",
                     yValueFormatString: "$##0.00",
                     dataPoints: <?php echo json_encode($dataPointsEarnings); ?>
                 }]
@@ -77,7 +77,7 @@ $conn->close();
                     text: "Traffic",
                 },
                 axisX: {
-                    valueFormatString: "DD MMM",
+                    valueFormatString: "DD-MM-YY HH:mm",
                 },
                 axisY: {
                     title: "Traffic MegaBytes",
@@ -88,7 +88,7 @@ $conn->close();
                     type: "splineArea",
                     color: "#006fff",
                     xValueType: "dateTime",
-                    xValueFormatString: "DD MMM",
+                    xValueFormatString: "DDD HH:mm",
                     yValueFormatString: "##0.00MB",
                     dataPoints: <?php echo json_encode($dataPointsTraffic); ?>
                 }]

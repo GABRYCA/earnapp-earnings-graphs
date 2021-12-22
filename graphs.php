@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "username";
 $password = "password";
-$dbname = "earnapp_anonymousgca";
+$dbname = "earnapp_" . $_POST["username"];
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -94,9 +94,14 @@ $conn->close();
                 }]
             });
 
+            currentUser();
+
             chart.render();
             chart2.render();
 
+        }
+        function currentUser(){
+            document.getElementById("user").innerText = "Current user: " + "<?php echo $_POST["showname"]?>"
         }
     </script>
 </head>
@@ -109,7 +114,7 @@ $conn->close();
     <hr style="color: #dedede">
 
     <p class="h1">Statistics:</p>
-    <p class="h6">Current user: AnonymousGCA</p>
+    <p class="h6" id="user">Current user: </p>
     <div class="container container-selection-graph rounded-3 pt-3 pb-3">
         <div id="chartEarnings" style="height: 370px; width: 100%;"></div>
         <br>

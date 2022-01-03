@@ -51,7 +51,7 @@ p {
     right: 10px;
     background: linear-gradient(-45deg, #003cff, #ff0000, #003cff, #ff0000);
     background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 5s ease infinite;
 }
 
 @keyframes gradient {

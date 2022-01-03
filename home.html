@@ -23,7 +23,7 @@
         <p class="h3">Graphs:</p>
         <p class="h6">Click <u>Open</u> to view.</p>
         <hr style="color: #dedede">
-        <div class="container">
+        <div class="container" id="user-container">
             <div class="row">
                 <div class="col-sm rounded-3 selection-graph pb-3 pt-2">
                     <p class="h3">AnonymousGCA</p>
@@ -91,6 +91,42 @@
                     <form name='ordine' action='graphs.php' method='POST'>
                         <input hidden type="text" name="showname" value="Pillo">
                         <input hidden type="text" name="username" value="pillo">
+                        <button type="submit" class="btn btn-success">Open</button>
+                    </form>
+                </div>
+            </div>
+            <hr style="color: #dedede">
+            <div class="row">
+                <div class="col-sm rounded-3 selection-graph pb-3 pt-2">
+                    <p class="h3">Alex</p>
+                    <img src="img/graph-example.png" class="img-thumbnail w-75">
+                    <br>
+                    <br>
+                    <form name='ordine' action='graphs.php' method='POST'>
+                        <input hidden type="text" name="showname" value="Alex">
+                        <input hidden type="text" name="username" value="alex">
+                        <button type="submit" class="btn btn-success">Open</button>
+                    </form>
+                </div>
+                <div class="col-sm rounded-3 selection-graph pb-3 pt-2">
+                    <p class="h3 text-success">Free</p>
+                    <img src="img/graph-example.png" class="img-thumbnail w-75">
+                    <br>
+                    <br>
+                    <form name='ordine' action='graphs.php' method='POST'>
+                        <input hidden type="text" name="showname" value="AnonymousGCA">
+                        <input hidden type="text" name="username" value="anonymousgca">
+                        <button type="submit" class="btn btn-success">Open</button>
+                    </form>
+                </div>
+                <div class="col-sm rounded-3 selection-graph pb-3 pt-2">
+                    <p class="h3 text-success">Free</p>
+                    <img src="img/graph-example.png" class="img-thumbnail w-75">
+                    <br>
+                    <br>
+                    <form name='ordine' action='graphs.php' method='POST'>
+                        <input hidden type="text" name="showname" value="AnonymousGCA">
+                        <input hidden type="text" name="username" value="anonymousgca">
                         <button type="submit" class="btn btn-success">Open</button>
                     </form>
                 </div>

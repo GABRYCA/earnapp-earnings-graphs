@@ -4,7 +4,7 @@
 <br>
 <br>
 <h1>Demo:</h1>
-Demo website: <a href="http://80.209.231.136/home.html">Demo</a>.
+Demo website: <a href="https://anonymousgca.eu">Demo</a>.
 <br>
 The demo is more a kind of an actual in use website, you can join my <a href="https://discord.gg/RSp2CSuMny">Discord</a> server and we can talk about adding someone.
 <h1>Usage</h1>

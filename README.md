@@ -14,4 +14,4 @@ For now, you may need to understand the code by yourself to use it.
 <b>Hint:</b> Home.html should be edited (you should edit the userforms), and also the database name should start with earnapp_"username", for example earnapp_anonymous, also you need to replace "localhost" with the address of your mysql database, and also set the username to access to it, then obviously the password. The showname of the Userform is being used only to edit the "Current user" text when you open a graphs.php page.
 
 <h1>Dependecies</h1>
-You should use this <a href="https://github.com/GABRYCA/earnapp-earnings-watcher">Fork</a> of the earnapp-earnings-watcher <b>OR</b> this <a href="https://github.com/GABRYCA/EarnApp-Earning-Monitor">other fork</a>, they have a db (database) config option compatible with these graphs.
+You should use this <a href="https://github.com/GABRYCA/earnapp-earnings-watcher">Fork</a> of the earnapp-earnings-watcher <b>OR</b> this <a href="https://github.com/GABRYCA/EarnApp-Earning-Monitor">other fork</a> of the earnapp-earning-monitor, they have a db (database) config option compatible with these graphs.

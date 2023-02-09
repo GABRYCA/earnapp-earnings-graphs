@@ -15,3 +15,8 @@ For now, you may need to understand the code by yourself to use it.
 
 <h1>Dependecies</h1>
 You should use this <a href="https://github.com/GABRYCA/earnapp-earnings-watcher">Fork</a> of the earnapp-earnings-watcher <b>OR</b> this <a href="https://github.com/GABRYCA/EarnApp-Earning-Monitor">other fork</a> of the earnapp-earning-monitor, they have a db (database) config option compatible with these graphs.
+
+<hr>
+
+<h3><b>I found a vulnerability, the graphs.php $_POST['username'] may be vulnerable to SQL Injections, you may want to remove the post and replace it with something to avoid that or even just use right away the name of the user and make multiple graphs.php.<br>
+Stay safe!</b></h3>
